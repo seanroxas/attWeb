@@ -1,0 +1,94 @@
+
+body{
+    background-color: #F9DFDC;
+}
+
+.logindesign{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 40%;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #522d2d;
+    font-family: 'system-ui';
+    box-shadow: 5px 15px 20px rgb(0,0,0,0.3);
+
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #884d4d;
+    opacity: 0.8; /* Firefox */
+    text-align: center;
+  }
+  
+.bodymid{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+.h1des{
+    font-style: italic;
+    color:#F9DFDC;
+    font-size: 3em;
+}
+.h11des{
+    font-style: italic;
+    color:#F9DFDC;
+    font-size: 2em;
+}
+.userfielddes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #F9DFDC;
+    background-color: #F9DFDC;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    
+
+}
+.ntd{
+	text-decoration: none;
+}
+.pwordfielddes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #F9DFDC;
+    background-color: #F9DFDC;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.reminder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #F9DFDC;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #F9DFDC;
+    text-align: center;
+}
+.subbutton{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: #F9DFDC;
+        width: 53%;
+        margin-bottom: 15px;
+        font-size: 1.5em;
+        color: #884d4d;
+    
+}
